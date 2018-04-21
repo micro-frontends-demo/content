@@ -1,0 +1,14 @@
+{
+  "name": "@micro-frontends-demo/content",
+  "version": "1.0.0",
+  "description": "Static content for a micro frontends demo",
+  "repository": "git@github.com:micro-frontends-demo/content",
+  "author": "Cam Jackson <camjackson89@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve --port 5001"
+  },
+  "devDependencies": {
+    "serve": "^6.5.2"
+  }
+}
