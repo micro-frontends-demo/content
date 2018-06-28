@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - "8"
 
+before_install:
+  - pip install --upgrade --user awscli
+
 install: "echo 'This is static content - nothing to install!'"
 script:
   - mkdir build
