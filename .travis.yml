@@ -27,4 +27,4 @@ after_deploy:
       .Id
       '`
   - "echo invalidating $DISTRIBUTION_ID"
-  - "aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths '*'"
+  - "aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths '/*'"
