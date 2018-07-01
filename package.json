@@ -6,9 +6,15 @@
   "author": "Cam Jackson <camjackson89@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "serve --port 5000 --cors"
+    "build": "node buildData.js",
+    "start": "serve --port 5000 --cors content"
   },
   "devDependencies": {
+    "prettier": "^1.13.7",
     "serve": "^6.5.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
