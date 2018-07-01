@@ -6,7 +6,7 @@ const restaurants = [
     name: "Becky's Burgers",
     priceRange: '$$',
     imageSrc: '/images/1-burger.jpg',
-    imageDescription: 'A photo of a burger with fries',
+    imageDescription: 'A photo of a burger with fries and a milkshake',
     description: 'Juicy burgers, crunchy fries, and creamy shakes',
   },
   {
