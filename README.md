@@ -6,5 +6,6 @@ Contains global styles that everyone should use, and common content like images.
 
 # Steps to build
   yarn build
+  
   yarn start
   
