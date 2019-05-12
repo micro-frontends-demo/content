@@ -1,5 +1,7 @@
 # Content
 
+[![Build Status](https://travis-ci.org/micro-frontends-demo/content.svg?branch=master)](https://travis-ci.org/micro-frontends-demo/content)
+
 Static content for a micro frontends demo.
 
 Contains global styles that everyone should use, and common content like images.
