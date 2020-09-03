@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "prettier": "^1.13.7",
-    "serve": "^6.5.2"
+    "serve": "^10.1.2"
   },
   "prettier": {
     "singleQuote": true,
